@@ -1,0 +1,49 @@
+name: initiate
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^7.0.2
+  cached_network_image: ^3.4.1
+  image_picker: ^1.2.1
+  intl: ^0.20.2
+  page_transition: ^2.2.1
+  dio: ^5.9.0
+  flutter_secure_storage: ^10.0.0
+  flutter_bloc: ^9.1.1
+  flutter_card_swiper: ^7.2.0
+  iconsax_flutter: ^1.0.1
+  geolocator: ^14.0.2
+  flutter_liveness_check: ^1.0.14
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets section
+  assets:
+    - assets/images/
+    - assets/images/onboarding_images/
+    # Ya fir specific images ke liye:
+    # - assets/images/logo.png
+    # - assets/images/background.jpg
+
+  # Fonts section - Update kiya hai assets/fonts/ path
+  fonts:
+    - family: Lufga
+      fonts:
+        - asset: assets/fonts/LufgaRegular.ttf
+          style: italic
